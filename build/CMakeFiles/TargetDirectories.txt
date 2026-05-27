@@ -1,0 +1,3 @@
+/Users/nicolasmir/projects/edge-vision-detector/build/CMakeFiles/edge-vision-detector.dir
+/Users/nicolasmir/projects/edge-vision-detector/build/CMakeFiles/edit_cache.dir
+/Users/nicolasmir/projects/edge-vision-detector/build/CMakeFiles/rebuild_cache.dir
