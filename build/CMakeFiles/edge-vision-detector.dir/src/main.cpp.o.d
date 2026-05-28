@@ -793,6 +793,26 @@ CMakeFiles/edge-vision-detector.dir/src/main.cpp.o: \
   /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/__fwd/stack.h \
   /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/print \
   /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/unistd.h \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/fstream \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/filesystem \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/__filesystem/copy_options.h \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/__filesystem/directory_entry.h \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/__filesystem/file_status.h \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/__filesystem/file_type.h \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/__filesystem/perms.h \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/__filesystem/file_time_type.h \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/__chrono/file_clock.h \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/__filesystem/filesystem_error.h \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/__filesystem/path.h \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/iomanip \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/__filesystem/operations.h \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/__filesystem/perm_options.h \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/__filesystem/space_info.h \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/__filesystem/directory_iterator.h \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/__filesystem/directory_options.h \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/__filesystem/path_iterator.h \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/__filesystem/recursive_directory_iterator.h \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/__filesystem/u8path.h \
   /opt/homebrew/Cellar/opencv/4.13.0_12/include/opencv4/opencv2/opencv.hpp \
   /opt/homebrew/Cellar/opencv/4.13.0_12/include/opencv4/opencv2/opencv_modules.hpp \
   /opt/homebrew/Cellar/opencv/4.13.0_12/include/opencv4/opencv2/core.hpp \
@@ -846,7 +866,6 @@ CMakeFiles/edge-vision-detector.dir/src/main.cpp.o: \
   /opt/homebrew/Cellar/opencv/4.13.0_12/include/opencv4/opencv2/dnn/dnn.hpp \
   /opt/homebrew/Cellar/opencv/4.13.0_12/include/opencv4/opencv2/core/async.hpp \
   /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/chrono \
-  /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/__chrono/file_clock.h \
   /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/forward_list \
   /opt/homebrew/Cellar/opencv/4.13.0_12/include/opencv4/opencv2/dnn/../dnn/version.hpp \
   /opt/homebrew/Cellar/opencv/4.13.0_12/include/opencv4/opencv2/dnn/dict.hpp \
@@ -881,7 +900,6 @@ CMakeFiles/edge-vision-detector.dir/src/main.cpp.o: \
   /opt/homebrew/Cellar/opencv/4.13.0_12/include/opencv4/opencv2/flann/hierarchical_clustering_index.h \
   /opt/homebrew/Cellar/opencv/4.13.0_12/include/opencv4/opencv2/flann/lsh_index.h \
   /opt/homebrew/Cellar/opencv/4.13.0_12/include/opencv4/opencv2/flann/lsh_table.h \
-  /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/iomanip \
   /opt/homebrew/Cellar/opencv/4.13.0_12/include/opencv4/opencv2/flann/autotuned_index.h \
   /opt/homebrew/Cellar/opencv/4.13.0_12/include/opencv4/opencv2/flann/ground_truth.h \
   /opt/homebrew/Cellar/opencv/4.13.0_12/include/opencv4/opencv2/flann/index_testing.h \
@@ -922,4 +940,8 @@ CMakeFiles/edge-vision-detector.dir/src/main.cpp.o: \
   /opt/homebrew/Cellar/opencv/4.13.0_12/include/opencv4/opencv2/stitching/detail/blenders.hpp \
   /opt/homebrew/Cellar/opencv/4.13.0_12/include/opencv4/opencv2/video.hpp \
   /opt/homebrew/Cellar/opencv/4.13.0_12/include/opencv4/opencv2/video/tracking.hpp \
-  /opt/homebrew/Cellar/opencv/4.13.0_12/include/opencv4/opencv2/video/background_segm.hpp
+  /opt/homebrew/Cellar/opencv/4.13.0_12/include/opencv4/opencv2/video/background_segm.hpp \
+  /opt/homebrew/Cellar/opencv/4.13.0_12/include/opencv4/opencv2/dnn/all_layers.hpp \
+  /Users/nicolasmir/projects/edge-vision-detector/include/Stream.h \
+  /Users/nicolasmir/projects/edge-vision-detector/include/Detector.h \
+  /Users/nicolasmir/projects/edge-vision-detector/include/Detection.h

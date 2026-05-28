@@ -136,6 +136,54 @@ edge-vision-detector/fast:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/edge-vision-detector.dir/build.make CMakeFiles/edge-vision-detector.dir/build
 .PHONY : edge-vision-detector/fast
 
+src/Detector.o: src/Detector.cpp.o
+.PHONY : src/Detector.o
+
+# target to build an object file
+src/Detector.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/edge-vision-detector.dir/build.make CMakeFiles/edge-vision-detector.dir/src/Detector.cpp.o
+.PHONY : src/Detector.cpp.o
+
+src/Detector.i: src/Detector.cpp.i
+.PHONY : src/Detector.i
+
+# target to preprocess a source file
+src/Detector.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/edge-vision-detector.dir/build.make CMakeFiles/edge-vision-detector.dir/src/Detector.cpp.i
+.PHONY : src/Detector.cpp.i
+
+src/Detector.s: src/Detector.cpp.s
+.PHONY : src/Detector.s
+
+# target to generate assembly for a file
+src/Detector.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/edge-vision-detector.dir/build.make CMakeFiles/edge-vision-detector.dir/src/Detector.cpp.s
+.PHONY : src/Detector.cpp.s
+
+src/Stream.o: src/Stream.cpp.o
+.PHONY : src/Stream.o
+
+# target to build an object file
+src/Stream.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/edge-vision-detector.dir/build.make CMakeFiles/edge-vision-detector.dir/src/Stream.cpp.o
+.PHONY : src/Stream.cpp.o
+
+src/Stream.i: src/Stream.cpp.i
+.PHONY : src/Stream.i
+
+# target to preprocess a source file
+src/Stream.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/edge-vision-detector.dir/build.make CMakeFiles/edge-vision-detector.dir/src/Stream.cpp.i
+.PHONY : src/Stream.cpp.i
+
+src/Stream.s: src/Stream.cpp.s
+.PHONY : src/Stream.s
+
+# target to generate assembly for a file
+src/Stream.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/edge-vision-detector.dir/build.make CMakeFiles/edge-vision-detector.dir/src/Stream.cpp.s
+.PHONY : src/Stream.cpp.s
+
 src/main.o: src/main.cpp.o
 .PHONY : src/main.o
 
@@ -170,6 +218,12 @@ help:
 	@echo "... edit_cache"
 	@echo "... rebuild_cache"
 	@echo "... edge-vision-detector"
+	@echo "... src/Detector.o"
+	@echo "... src/Detector.i"
+	@echo "... src/Detector.s"
+	@echo "... src/Stream.o"
+	@echo "... src/Stream.i"
+	@echo "... src/Stream.s"
 	@echo "... src/main.o"
 	@echo "... src/main.i"
 	@echo "... src/main.s"

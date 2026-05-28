@@ -85,12 +85,12 @@ clean: CMakeFiles/edge-vision-detector.dir/clean
 CMakeFiles/edge-vision-detector.dir/all:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/edge-vision-detector.dir/build.make CMakeFiles/edge-vision-detector.dir/depend
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/edge-vision-detector.dir/build.make CMakeFiles/edge-vision-detector.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/Users/nicolasmir/projects/edge-vision-detector/build/CMakeFiles --progress-num=1,2 "Built target edge-vision-detector"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/Users/nicolasmir/projects/edge-vision-detector/build/CMakeFiles --progress-num=1,2,3,4 "Built target edge-vision-detector"
 .PHONY : CMakeFiles/edge-vision-detector.dir/all
 
 # Build rule for subdir invocation for target.
 CMakeFiles/edge-vision-detector.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /Users/nicolasmir/projects/edge-vision-detector/build/CMakeFiles 2
+	$(CMAKE_COMMAND) -E cmake_progress_start /Users/nicolasmir/projects/edge-vision-detector/build/CMakeFiles 4
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 CMakeFiles/edge-vision-detector.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /Users/nicolasmir/projects/edge-vision-detector/build/CMakeFiles 0
 .PHONY : CMakeFiles/edge-vision-detector.dir/rule
@@ -102,7 +102,7 @@ edge-vision-detector: CMakeFiles/edge-vision-detector.dir/rule
 # codegen rule for target.
 CMakeFiles/edge-vision-detector.dir/codegen:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/edge-vision-detector.dir/build.make CMakeFiles/edge-vision-detector.dir/codegen
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/Users/nicolasmir/projects/edge-vision-detector/build/CMakeFiles --progress-num=1,2 "Finished codegen for target edge-vision-detector"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/Users/nicolasmir/projects/edge-vision-detector/build/CMakeFiles --progress-num=1,2,3,4 "Finished codegen for target edge-vision-detector"
 .PHONY : CMakeFiles/edge-vision-detector.dir/codegen
 
 # clean rule for target.

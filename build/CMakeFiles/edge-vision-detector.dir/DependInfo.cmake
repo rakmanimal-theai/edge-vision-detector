@@ -8,6 +8,8 @@ set(CMAKE_DEPENDS_LANGUAGES
 
 # The set of dependency files which are needed:
 set(CMAKE_DEPENDS_DEPENDENCY_FILES
+  "/Users/nicolasmir/projects/edge-vision-detector/src/Detector.cpp" "CMakeFiles/edge-vision-detector.dir/src/Detector.cpp.o" "gcc" "CMakeFiles/edge-vision-detector.dir/src/Detector.cpp.o.d"
+  "/Users/nicolasmir/projects/edge-vision-detector/src/Stream.cpp" "CMakeFiles/edge-vision-detector.dir/src/Stream.cpp.o" "gcc" "CMakeFiles/edge-vision-detector.dir/src/Stream.cpp.o.d"
   "/Users/nicolasmir/projects/edge-vision-detector/src/main.cpp" "CMakeFiles/edge-vision-detector.dir/src/main.cpp.o" "gcc" "CMakeFiles/edge-vision-detector.dir/src/main.cpp.o.d"
   )
 

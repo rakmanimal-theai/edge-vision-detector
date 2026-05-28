@@ -1,0 +1,6 @@
+%YAML:1.0
+---
+model_path: "../yolov5m.onnx"
+names_path: "../coco.names"
+confidence_threshold: 0.5
+iou_threshold: 0.4

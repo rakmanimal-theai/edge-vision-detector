@@ -86,14 +86,46 @@ CMakeFiles/edge-vision-detector.dir/src/main.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/edge-vision-detector.dir/src/main.cpp.s"
 	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/nicolasmir/projects/edge-vision-detector/src/main.cpp -o CMakeFiles/edge-vision-detector.dir/src/main.cpp.s
 
+CMakeFiles/edge-vision-detector.dir/src/Stream.cpp.o: CMakeFiles/edge-vision-detector.dir/flags.make
+CMakeFiles/edge-vision-detector.dir/src/Stream.cpp.o: /Users/nicolasmir/projects/edge-vision-detector/src/Stream.cpp
+CMakeFiles/edge-vision-detector.dir/src/Stream.cpp.o: CMakeFiles/edge-vision-detector.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/nicolasmir/projects/edge-vision-detector/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/edge-vision-detector.dir/src/Stream.cpp.o"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/edge-vision-detector.dir/src/Stream.cpp.o -MF CMakeFiles/edge-vision-detector.dir/src/Stream.cpp.o.d -o CMakeFiles/edge-vision-detector.dir/src/Stream.cpp.o -c /Users/nicolasmir/projects/edge-vision-detector/src/Stream.cpp
+
+CMakeFiles/edge-vision-detector.dir/src/Stream.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/edge-vision-detector.dir/src/Stream.cpp.i"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/nicolasmir/projects/edge-vision-detector/src/Stream.cpp > CMakeFiles/edge-vision-detector.dir/src/Stream.cpp.i
+
+CMakeFiles/edge-vision-detector.dir/src/Stream.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/edge-vision-detector.dir/src/Stream.cpp.s"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/nicolasmir/projects/edge-vision-detector/src/Stream.cpp -o CMakeFiles/edge-vision-detector.dir/src/Stream.cpp.s
+
+CMakeFiles/edge-vision-detector.dir/src/Detector.cpp.o: CMakeFiles/edge-vision-detector.dir/flags.make
+CMakeFiles/edge-vision-detector.dir/src/Detector.cpp.o: /Users/nicolasmir/projects/edge-vision-detector/src/Detector.cpp
+CMakeFiles/edge-vision-detector.dir/src/Detector.cpp.o: CMakeFiles/edge-vision-detector.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/nicolasmir/projects/edge-vision-detector/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object CMakeFiles/edge-vision-detector.dir/src/Detector.cpp.o"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/edge-vision-detector.dir/src/Detector.cpp.o -MF CMakeFiles/edge-vision-detector.dir/src/Detector.cpp.o.d -o CMakeFiles/edge-vision-detector.dir/src/Detector.cpp.o -c /Users/nicolasmir/projects/edge-vision-detector/src/Detector.cpp
+
+CMakeFiles/edge-vision-detector.dir/src/Detector.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/edge-vision-detector.dir/src/Detector.cpp.i"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/nicolasmir/projects/edge-vision-detector/src/Detector.cpp > CMakeFiles/edge-vision-detector.dir/src/Detector.cpp.i
+
+CMakeFiles/edge-vision-detector.dir/src/Detector.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/edge-vision-detector.dir/src/Detector.cpp.s"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/nicolasmir/projects/edge-vision-detector/src/Detector.cpp -o CMakeFiles/edge-vision-detector.dir/src/Detector.cpp.s
+
 # Object files for target edge-vision-detector
 edge__vision__detector_OBJECTS = \
-"CMakeFiles/edge-vision-detector.dir/src/main.cpp.o"
+"CMakeFiles/edge-vision-detector.dir/src/main.cpp.o" \
+"CMakeFiles/edge-vision-detector.dir/src/Stream.cpp.o" \
+"CMakeFiles/edge-vision-detector.dir/src/Detector.cpp.o"
 
 # External object files for target edge-vision-detector
 edge__vision__detector_EXTERNAL_OBJECTS =
 
 edge-vision-detector: CMakeFiles/edge-vision-detector.dir/src/main.cpp.o
+edge-vision-detector: CMakeFiles/edge-vision-detector.dir/src/Stream.cpp.o
+edge-vision-detector: CMakeFiles/edge-vision-detector.dir/src/Detector.cpp.o
 edge-vision-detector: CMakeFiles/edge-vision-detector.dir/build.make
 edge-vision-detector: /opt/homebrew/lib/libopencv_gapi.4.13.0.dylib
 edge-vision-detector: /opt/homebrew/lib/libopencv_stitching.4.13.0.dylib
@@ -152,7 +184,7 @@ edge-vision-detector: /opt/homebrew/lib/libopencv_photo.4.13.0.dylib
 edge-vision-detector: /opt/homebrew/lib/libopencv_imgproc.4.13.0.dylib
 edge-vision-detector: /opt/homebrew/lib/libopencv_core.4.13.0.dylib
 edge-vision-detector: CMakeFiles/edge-vision-detector.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --bold --progress-dir=/Users/nicolasmir/projects/edge-vision-detector/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Linking CXX executable edge-vision-detector"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --bold --progress-dir=/Users/nicolasmir/projects/edge-vision-detector/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Linking CXX executable edge-vision-detector"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/edge-vision-detector.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.
