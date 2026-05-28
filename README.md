@@ -2,9 +2,6 @@
 
 > A production-minded computer vision system that runs YOLOv5 inference on a live webcam feed, built from scratch in C++ for edge-deployable, real-time performance.
 
-![Demo GIF](assets/demo.gif)
-*Real-time detection at ~4 FPS on a MacBook Air M2*
-
 ---
 
 ## Executive Summary
